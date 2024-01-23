@@ -83,3 +83,20 @@
 // let str = "Country assignment";
 
 // console.log(str.length);
+
+//Task 9
+//In this task we have to write a program to concatenate two strings and print the result.
+
+//First way
+
+// let str1 = "It falls ";
+// let str2 = "down repeatedly";
+
+// console.log(str1 + str2);
+
+//Second way
+
+// let str1 = "It falls";
+// let str2 = " down repeatedly";
+
+// console.log(str1.concat(str2));
