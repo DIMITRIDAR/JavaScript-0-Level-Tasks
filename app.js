@@ -37,3 +37,16 @@
 // let x = 9;
 // let y = 5;
 // console.log(x - y);
+
+//Task 5
+//In this task we have to write a program to multiply two numbers and print the result.
+
+//First way
+
+// console.log(5 * 8);
+
+//Second way
+
+// let x = 5;
+// let y = 8;
+// console.log(x * y);
