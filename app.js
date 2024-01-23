@@ -100,3 +100,10 @@
 // let str2 = " down repeatedly";
 
 // console.log(str1.concat(str2));
+
+//Task 10
+//In this task we have to write a program to convert a string into upper case.
+
+// let str = "rainbow shadow";
+
+// console.log(str.toUpperCase());
