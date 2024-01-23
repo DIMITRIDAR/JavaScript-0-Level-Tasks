@@ -24,3 +24,16 @@
 // let x = 5;
 // let y = 6;
 // console.log(x + y);
+
+//Task 4
+//In this task we have to write a program to subtract two numbers from each other and print the result.
+
+//First way
+
+// console.log(9 - 5);
+
+//Second way
+
+// let x = 9;
+// let y = 5;
+// console.log(x - y);
