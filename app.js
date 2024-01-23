@@ -76,3 +76,10 @@
 // let x = 11;
 // let y = 5;
 // console.log(x % y);
+
+//Task 8
+//In this task we have to write a program to create a variable and assign it a string. Then print the length of the string.
+
+// let str = "Country assignment";
+
+// console.log(str.length);
