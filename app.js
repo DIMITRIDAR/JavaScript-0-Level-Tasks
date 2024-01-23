@@ -63,3 +63,16 @@
 // let x = 55;
 // let y = 5;
 // console.log(x / y);
+
+//Task 7
+//In this task we have to write a program to calculate the remainder of the division of two numbers.
+
+//First way
+
+// console.log(10 % 2);
+
+//Second way
+
+// let x = 11;
+// let y = 5;
+// console.log(x % y);
