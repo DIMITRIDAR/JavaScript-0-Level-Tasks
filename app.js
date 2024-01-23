@@ -107,3 +107,10 @@
 // let str = "rainbow shadow";
 
 // console.log(str.toUpperCase());
+
+//Task 11
+//In this task we have to write a program to convert a string into lower case.
+
+// let str = "IRON MAN";
+
+// console.log(str.toLowerCase());
