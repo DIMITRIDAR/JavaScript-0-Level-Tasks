@@ -50,3 +50,16 @@
 // let x = 5;
 // let y = 8;
 // console.log(x * y);
+
+//Task 6
+//In this task we have to write a program to divide two numbers and print the result.
+
+//First way
+
+// console.log(55 / 5);
+
+//Second way
+
+// let x = 55;
+// let y = 5;
+// console.log(x / y);
