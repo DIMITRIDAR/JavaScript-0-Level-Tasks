@@ -155,10 +155,17 @@
 //Task 4
 //In this task we have to write a program to check if a string is empty or not.
 
-let str = "";
+// let str = "";
 
-if (str === "") {
-  console.log("The string is empty!");
-} else {
-  console.log("The string isn't empty!");
-}
+// if (str === "") {
+//   console.log("The string is empty!");
+// } else {
+//   console.log("The string isn't empty!");
+// }
+
+//Task 5
+//In this task we have to write a program to check whether a string contains a specific word.
+
+let str = "My beautiful friend";
+
+console.log(str.includes("friend"));
