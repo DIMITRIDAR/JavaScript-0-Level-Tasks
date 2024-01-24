@@ -151,3 +151,14 @@
 // } else {
 //   console.log("X isn't divisible by Y !");
 // }
+
+//Task 4
+//In this task we have to write a program to check if a string is empty or not.
+
+let str = "";
+
+if (str === "") {
+  console.log("The string is empty!");
+} else {
+  console.log("The string isn't empty!");
+}
