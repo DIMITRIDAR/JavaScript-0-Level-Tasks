@@ -127,3 +127,16 @@
 // } else {
 //   console.log("Given number is odd!");
 // }
+
+//Task 2
+//In this task we have to write a program to check whether a number is positive, negative or zero.
+
+// let x = 0;
+
+// if (x > 0) {
+//   console.log("Given number is positive!");
+// } else if (x < 0) {
+//   console.log("Given number is negative!");
+// } else {
+//   console.log("Given number is zero!");
+// }
