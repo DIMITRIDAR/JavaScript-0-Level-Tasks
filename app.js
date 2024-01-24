@@ -166,6 +166,17 @@
 //Task 5
 //In this task we have to write a program to check whether a string contains a specific word.
 
-let str = "My beautiful friend";
+// let str = "My beautiful friend";
 
-console.log(str.includes("friend"));
+// console.log(str.includes("friend"));
+
+//Task 6
+//In this task we have to write a program to find a minimum of two numbers.
+
+// let x = 7;
+// let y = 8;
+// if (x > y) {
+//   console.log("X is maximum");
+// } else {
+//   console.log("Y is maximum");
+// }
