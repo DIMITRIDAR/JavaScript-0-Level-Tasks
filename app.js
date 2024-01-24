@@ -140,3 +140,14 @@
 // } else {
 //   console.log("Given number is zero!");
 // }
+
+//Task 3
+//In this task we have to write a program to check if one number is divisible by another number.
+
+// let x = 10;
+// let y = 3;
+// if (x % y === 0) {
+//   console.log("X is divisible by Y !");
+// } else {
+//   console.log("X isn't divisible by Y !");
+// }
