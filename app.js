@@ -117,3 +117,13 @@
 
 //------------------------------------------------------------------------------------------------------------------------
 //Chapter 2
+//Task 1
+//In this task we have to write a program to check whether a number is even or odd.
+
+// let x = 10;
+
+// if (x % 2 === 0) {
+//   console.log("Given number is even!");
+// } else {
+//   console.log("Given number is odd!");
+// }
