@@ -184,3 +184,23 @@
 //-----------------------------------------------------------------------------------------------
 //Chapter 3
 //Task 1
+//In this task we have to write a program which prints numbers from 0 to 10.
+
+// for (i = 0; i < 11; i++) {
+//   console.log(i);
+// }
+
+//Task 2
+//In this task we have to write a program to find the length of the longest word in a sentence.
+
+// let sentence = "My name is Alexander";
+// let longestWord = 0;
+
+// let words = sentence.split(" ");
+
+// for (i = 0; i < words.length; i++) {
+//   if (words[i].length > longestWord) {
+//     longestWord = words[i].length;
+//   }
+// }
+// console.log(longestWord);
