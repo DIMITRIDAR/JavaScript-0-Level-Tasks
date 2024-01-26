@@ -194,12 +194,12 @@
 //In this task we have to write a program to find the length of the longest word in a sentence.
 
 // let sentence = "My name is Alexander";
-// let longestWord = 0;
 
 // let words = sentence.split(" ");
+// let longestWord = words[0];
 
-// for (i = 0; i < words.length; i++) {
-//   if (words[i].length > longestWord) {
+// for (i = 1; i < words.length; i++) {
+//   if (words[i].length > longestWord.length) {
 //     longestWord = words[i].length;
 //   }
 // }
@@ -207,3 +207,9 @@
 
 //Task 3
 //In this task we have to write a program which prints even numbers , from 1 to 20, using for loop
+
+// for (i = 1; i < 20; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
