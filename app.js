@@ -198,12 +198,12 @@
 // let words = sentence.split(" ");
 // let longestWord = words[0];
 
-// for (i = 1; i < words.length; i++) {
+// for (let i = 1; i < words.length; i++) {
 //   if (words[i].length > longestWord.length) {
-//     longestWord = words[i].length;
+//     longestWord = words[i];
 //   }
 // }
-// console.log(longestWord);
+// console.log(longestWord.length);
 
 //Task 3
 //In this task we have to write a program which prints even numbers , from 1 to 20, using for loop
