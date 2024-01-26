@@ -155,9 +155,9 @@
 //Task 4
 //In this task we have to write a program to check if a string is empty or not.
 
-// let str = "";
+// let str = "   ";
 
-// if (str === "") {
+// if (str == 0) {
 //   console.log("The string is empty!");
 // } else {
 //   console.log("The string isn't empty!");
@@ -204,3 +204,6 @@
 //   }
 // }
 // console.log(longestWord);
+
+//Task 3
+//In this task we have to write a program which prints even numbers , from 1 to 20, using for loop
