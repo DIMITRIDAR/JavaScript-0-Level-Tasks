@@ -213,3 +213,15 @@
 //     console.log(i);
 //   }
 // }
+
+//Task 4
+//In this task we have to write a program that prompts the user to enter a number and prints "Hello!" as many times,
+//as the entered numbers equals to.
+
+// let ask = Number(prompt("Enter the number!"));
+// let count = 0;
+
+// while (count < ask) {
+//   console.log("Hello!");
+//   count++;
+// }
