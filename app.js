@@ -155,9 +155,9 @@
 //Task 4
 //In this task we have to write a program to check if a string is empty or not.
 
-// let str = "   ";
+// let str = "     ";
 
-// if (str == 0) {
+// if (str.trim().length == 0) {
 //   console.log("The string is empty!");
 // } else {
 //   console.log("The string isn't empty!");
@@ -225,3 +225,5 @@
 //   console.log("Hello!");
 //   count++;
 // }
+
+//Task 5
