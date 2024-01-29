@@ -262,3 +262,16 @@
 //     console.log(28);
 //     break;
 // }
+
+//Task 7
+//In this task we have to write a program that asks the user to guess a secret number between 1 and 10.
+//Keep asking for guesses until they guess correctly, using a while loop.
+
+let secretNum = 6;
+let ask = Number(prompt("Enter the number!"));
+
+while (secretNum !== ask) {
+  ask = Number(prompt("Enter the number!"));
+}
+
+console.log("Correct!");
