@@ -235,3 +235,30 @@
 //   sum += i;
 // }
 // console.log(sum);
+
+//Task 6
+//In this task we have to write a program that takes as input a month number (for January 1, February 2 2etc.)
+//and prints the number of days in that month using switch/case.
+
+// let num = Number(prompt("Enter the number!"));
+
+// switch (num) {
+//   case 1:
+//   case 3:
+//   case 5:
+//   case 7:
+//   case 8:
+//   case 10:
+//   case 12:
+//     console.log(31);
+//     break;
+//   case 4:
+//   case 6:
+//   case 9:
+//   case 11:
+//     console.log(30);
+//     break;
+//   case 2:
+//     console.log(28);
+//     break;
+// }
