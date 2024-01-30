@@ -316,3 +316,19 @@
 // }
 
 // console.log("Congratulations, correct password!");
+
+//Task 10
+//In this task we have to write a function, called sumDigits, that takes a number as an argument and returns the sum
+//of its digits.
+
+// function sumDigits(number) {
+//   let sum = 0;
+//   let str = Math.abs(number).toString();
+//   for (i = 0; i < str.length; i++) {
+//     sum += parseInt(str[i]);
+//   }
+
+//   return sum;
+// }
+
+// console.log(sumDigits(32));
