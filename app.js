@@ -332,3 +332,19 @@
 // }
 
 // console.log(sumDigits(32));
+
+//Task 11
+//In this task we have to write a function called countBs, that takes a string as its only argument and returns the number
+//of uppercase "B" characters in the string.
+
+// function countBs(str) {
+//   let sum = 0;
+//   for (let i = 0; i < str.length; i++) {
+//     if (str[i] == "B") {
+//       sum++;
+//     }
+//   }
+//   return sum;
+// }
+
+// console.log(countBs("BoBBy's birthday"));
