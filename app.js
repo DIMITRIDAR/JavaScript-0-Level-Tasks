@@ -267,11 +267,38 @@
 //In this task we have to write a program that asks the user to guess a secret number between 1 and 10.
 //Keep asking for guesses until they guess correctly, using a while loop.
 
-let secretNum = 6;
-let ask = Number(prompt("Enter the number!"));
+// let secretNum = 6;
+// let ask = Number(prompt("Enter the number!"));
 
-while (secretNum !== ask) {
-  ask = Number(prompt("Enter the number!"));
-}
+// while (secretNum !== ask) {
+//   ask = Number(prompt("Enter the number!"));
+// }
 
-console.log("Correct!");
+// console.log("Correct!");
+
+//Task 8
+//In this task we have to write a program that takes a grade(A,B,C,D or F) as an input and prints the
+//appropriate message, using switch/case. For example, if the input is "A", it should print "Awesome!"
+
+// let grades = prompt("Enter the grade!");
+
+// switch (grades) {
+//   case "A":
+//     console.log("Awesome!");
+//     break;
+//   case "B":
+//     console.log("Good!");
+//     break;
+//   case "C":
+//     console.log("Not bad!");
+//     break;
+//   case "D":
+//     console.log("Weak!");
+//     break;
+//   case "E":
+//     console.log("Passed!");
+//     break;
+//   case "F":
+//     console.log("Failed!");
+//     break;
+// }
