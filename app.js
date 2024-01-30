@@ -302,3 +302,17 @@
 //     console.log("Failed!");
 //     break;
 // }
+
+//Task 9
+//In this task we have to write a program that prompts the user to enter a password. The program should continue
+//to ask for a password until you enter the correct password. After entering the correct password, show a success message.
+//The correct password is "12345".
+
+// let askFor = Number(prompt("Enter the correct password!"));
+// let password = 12345;
+
+// while (password !== askFor) {
+//   askFor = Number(prompt("Enter the correct password!"));
+// }
+
+// console.log("Congratulations, correct password!");
