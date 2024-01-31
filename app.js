@@ -362,3 +362,14 @@
 // }
 
 // console.log(sum);
+
+//Task 2
+//In this task we have to find the average of the numbers in an array.
+
+// let arr = [1, 2, 3, 4, 5];
+// let sum = 0;
+// for (let i = 0; i < arr.length; i++) {
+//   sum += arr[i];
+// }
+
+// console.log(sum / arr.length);
