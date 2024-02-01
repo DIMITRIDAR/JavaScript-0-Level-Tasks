@@ -408,3 +408,14 @@
 // }
 
 // console.log(sort([3, 2, 7, 4, 8, 1]));
+
+//Task 6
+//In this task we have to write a program to check whether an array contains a particular element or not.
+
+// let arr = [2, 3, 4, 6, 8];
+// let x = 1;
+// if (arr.includes(x)) {
+//   console.log("This array contains X!");
+// } else {
+//   console.log("This array doesn't contain X!");
+// }
