@@ -396,3 +396,15 @@
 // }
 
 // console.log(sorted([1, 10, 2, 5, 6, 100, 7, 9, 34, 76, 70]));
+
+//Task 5
+//In this task we have to write a program to find the smallest element of an array.
+
+// let arr = [3, 2, 7, 4, 8, 1];
+
+// function sort(arr) {
+//   arr.sort((a, b) => a - b);
+//   return arr[0];
+// }
+
+// console.log(sort([3, 2, 7, 4, 8, 1]));
