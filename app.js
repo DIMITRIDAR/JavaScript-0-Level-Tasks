@@ -419,3 +419,14 @@
 // } else {
 //   console.log("This array doesn't contain X!");
 // }
+
+//Task 7
+//In this task we have to write a program to remove an element from an array.
+
+let arr = [1, 3, 5, 7, 9];
+
+// let sortedFirst = arr.shift();
+// console.log(arr); //To remove first element
+
+// let sortedLast = arr.pop();
+// console.log(arr); //To remove last element;
