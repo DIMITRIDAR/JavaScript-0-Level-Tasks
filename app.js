@@ -373,3 +373,14 @@
 // }
 
 // console.log(sum / arr.length);
+
+//Task 3
+//In this task we have to sort an array of numbers in ascending order.
+
+// let arr = [2, 1, 7, 3, 5, 4];
+
+// arr.sort(function (a, b) {
+//   return a - b;
+// });
+
+// console.log(arr);
