@@ -384,3 +384,15 @@
 // });
 
 // console.log(arr);
+
+//Task 4
+//In this task we have to write a program to find the largest element in an array.
+
+// let arr = [1, 10, 2, 5, 6, 100, 7, 9, 34, 76, 70];
+
+// function sorted(arr) {
+//   arr.sort((a, b) => a - b);
+//   return arr[arr.length - 1];
+// }
+
+// console.log(sorted([1, 10, 2, 5, 6, 100, 7, 9, 34, 76, 70]));
