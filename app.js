@@ -488,3 +488,11 @@
 // }
 
 // console.log(equality([1, 2, 3, 4], [1, 2, 3, 4]));
+
+//Task 12
+//In this task we have to write a program to merge two sorted arrays into one sorted array.
+
+// let arr1 = [1, 4, 2, 3, 5];
+// let arr2 = [7, 8, 20, 23, 54];
+// let mergedArr = arr1.sort((a, b) => a - b).concat(arr2.sort((a, b) => a - b));
+// console.log(mergedArr);
