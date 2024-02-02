@@ -458,5 +458,16 @@
 //     sum += arr[i];
 //   }
 // }
-
 // console.log(sum);
+
+//Task 10
+//In this task we have to write a program to find the second largest number in an array.
+
+// let arr = [1, 5, 2, 7, 3, 88, 34];
+// // let sortedArr = arr.sort((a, b) => b - a);
+// // console.log(arr[1]);
+
+// //or
+
+// let sortedArr = arr.sort((a, b) => a - b);
+// console.log(arr[arr.length - 2]);
