@@ -471,3 +471,20 @@
 
 // let sortedArr = arr.sort((a, b) => a - b);
 // console.log(arr[arr.length - 2]);
+
+//Task 11
+//In this task we have to write a program to check if two arrays are equal.
+
+// function equality(arr1, arr2) {
+//   if (arr1.length !== arr2.length) {
+//     return false;
+//   }
+//   for (i = 0; i < arr2.length; i++) {
+//     if (arr1[i] != arr2[i]) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+
+// console.log(equality([1, 2, 3, 4], [1, 2, 3, 4]));
