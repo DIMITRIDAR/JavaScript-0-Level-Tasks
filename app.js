@@ -423,10 +423,26 @@
 //Task 7
 //In this task we have to write a program to remove an element from an array.
 
-let arr = [1, 3, 5, 7, 9];
+// let arr = [1, 3, 5, 7, 9];
 
 // let sortedFirst = arr.shift();
 // console.log(arr); //To remove first element
 
 // let sortedLast = arr.pop();
 // console.log(arr); //To remove last element;
+
+//Task 8
+
+//In this task we have to write a program to count the number of occurrences of a particular element
+//in an array.
+
+// let arr = [1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 5];
+// let elementToCount = 1;
+// let count = 0;
+// for (i = 0; i < arr.length; i++) {
+//   if (arr[i] == elementToCount) {
+//     count++;
+//   }
+// }
+
+// console.log(count);
