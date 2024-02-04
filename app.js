@@ -534,3 +534,16 @@
 // const car = { mark: "Toyota", model: "Camry", Year: 2020 };
 
 // console.log(car);
+
+//Task 16
+//In this task we have to add a method "start" to the "car" object, that prints "the car is starting!", when it's called;
+//Call the start method.
+
+// const car = {
+//   Mark: "Toyota",
+//   Model: "Camry",
+//   Year: 2020,
+//   Start: "The car is starting!",
+// };
+
+// console.log(car.Start);
