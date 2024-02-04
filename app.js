@@ -504,3 +504,25 @@
 
 // let sortedArr = str.sort();
 // console.log(sortedArr);
+
+//Task 14
+//In this task we have to write a program to find common elements among multiple arrays.
+
+// function findCommonElements(...arrays) {
+//   if (arrays.length === 0 || arrays === null) {
+//     return;
+//   }
+//   let baseArray = arrays[0];
+//   return baseArray.filter((element) => {
+//     return arrays.every((array) => array.includes(element));
+//   });
+// }
+
+// console.log(
+//   findCommonElements(
+//     [1, 2, 3, 4],
+//     [1, 2, 3, 4, 5],
+//     [2, 1, 3, 5, 6, 7],
+//     [1, 2, 3, 4, 8]
+//   )
+// );
