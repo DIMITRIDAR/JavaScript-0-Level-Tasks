@@ -563,3 +563,8 @@
 // const person = { Name: "Bob", Age: 28, City: "Tbilisi", Job: "Developer" };
 
 // console.log(person);
+
+//....................................................................................................................
+//Chapter 5
+//Task 1
+//In this task we have to create an object, named "Person"; The object will have a first name, last name and age.
