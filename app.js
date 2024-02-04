@@ -526,3 +526,11 @@
 //     [1, 2, 3, 4, 8]
 //   )
 // );
+
+//Task 15
+//In this task we have to create an object, called "car" for the mark, model and year of the vehicle.Print the object
+//to the console.
+
+// const car = { mark: "Toyota", model: "Camry", Year: 2020 };
+
+// console.log(car);
