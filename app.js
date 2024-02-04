@@ -547,3 +547,11 @@
 // };
 
 // console.log(car.Start);
+
+//Task 17
+//In this task we have to create another object named "Person", with the name, age and city properties;
+//Print the name property using a dot.
+
+// const person = { Name: "Bob", Age: 28, City: "Tbilisi" };
+
+// console.log(person.Name);
