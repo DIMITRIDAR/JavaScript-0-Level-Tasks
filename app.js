@@ -555,3 +555,11 @@
 // const person = { Name: "Bob", Age: 28, City: "Tbilisi" };
 
 // console.log(person.Name);
+
+//Task 18
+//In this task we have to add a new property "Job" to the object "person" and assign it a value.
+//Print the updated object.
+
+// const person = { Name: "Bob", Age: 28, City: "Tbilisi", Job: "Developer" };
+
+// console.log(person);
