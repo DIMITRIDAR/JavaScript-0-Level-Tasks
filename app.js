@@ -496,3 +496,11 @@
 // let arr2 = [7, 8, 20, 23, 54];
 // let mergedArr = arr1.sort((a, b) => a - b).concat(arr2.sort((a, b) => a - b));
 // console.log(mergedArr);
+
+//Task 13
+//In this task we have to write a program to sort an array of strings alphabetically.
+
+// let str = ["dog", "apple", "cat", "ball", "egg", "zebra"];
+
+// let sortedArr = str.sort();
+// console.log(sortedArr);
