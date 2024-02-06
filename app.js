@@ -357,7 +357,7 @@
 
 // let arr = [1, 2, 3, 4, 5];
 // let sum = 0;
-// for (i = 0; i < arr.length; i++) {
+// for (let i = 0; i < arr.length; i++) {
 //   sum += arr[i];
 // }
 
@@ -415,9 +415,9 @@
 // let arr = [2, 3, 4, 6, 8];
 // let x = 1;
 // if (arr.includes(x)) {
-//   console.log("This array contains X!");
+//   console.log("This array contains  `X`!");
 // } else {
-//   console.log("This array doesn't contain X!");
+//   console.log("This array doesn't contain `X`!");
 // }
 
 //Task 7
