@@ -492,11 +492,11 @@
 //Task 12
 //In this task we have to write a program to merge two sorted arrays into one sorted array.
 
-let arr1 = [1, 4, 2, 3, 5];
-let arr2 = [7, 8, 20, 23, 54];
-let mergedArr = arr1.concat(arr2);
-let sortedArr = mergedArr.sort((a, b) => a - b);
-console.log(sortedArr);
+// let arr1 = [1, 4, 2, 3, 5];
+// let arr2 = [7, 8, 20, 23, 54];
+// let mergedArr = arr1.concat(arr2);
+// let sortedArr = mergedArr.sort((a, b) => a - b);
+// console.log(sortedArr);
 
 //Task 13
 //In this task we have to write a program to sort an array of strings alphabetically.
@@ -569,3 +569,7 @@ console.log(sortedArr);
 //Chapter 5
 //Task 1
 //In this task we have to create an object, named "Person"; The object will have a first name, last name and age.
+
+const Person = { FirstName: "George", LastName: "Washington", Age: 28 };
+
+console.log(Person);
