@@ -570,6 +570,21 @@
 //Task 1
 //In this task we have to create an object, named "Person"; The object will have a first name, last name and age.
 
-const Person = { FirstName: "George", LastName: "Washington", Age: 28 };
+// const Person = { FirstName: "George", LastName: "Washington", Age: 28 };
 
-console.log(Person);
+// console.log(Person);
+
+//Task 2
+//In this task we have to add a function called "sayHello" to the object from previous task, that will print
+//the values of the name in the object.
+
+// const Person = {
+//   firstName: "George",
+//   lastName: "Washington",
+//   age: 28,
+//   sayHello: function () {
+//     console.log(`Hello, my name is ${this.firstName} ${this.lastName}`);
+//   },
+// };
+
+// Person.sayHello();
