@@ -653,4 +653,29 @@
 // Person.length();
 
 //Task 6
-//In this task we have
+//In this task we have to print the amount of methods in the previous task object.
+
+// const Person = {
+//   firstName: "George",
+//   lastName: "Washington",
+//   age: 28,
+//   job: "Acrobat",
+//   length: function () {
+//     console.log(`The length of the "job" property is ${this.job.length}`);
+//   },
+//   sayHello: function () {
+//     console.log(`My name is ${this.firstName} ${this.lastName}`);
+//   },
+// };
+
+// function countMethods(obj) {
+//   let amount = 0;
+//   for (key in obj) {
+//     if (typeof obj[key] === "function") {
+//       amount++;
+//     }
+//   }
+//   return amount;
+// }
+
+// console.log(countMethods(Person));
