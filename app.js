@@ -602,16 +602,16 @@
 //In this task we have to add a function called "sayHello" to the object from previous task, that will print
 //the values of the name in the object.
 
-// const Person = {
-//   firstName: "George",
-//   lastName: "Washington",
-//   age: 28,
-//   sayHello: function () {
-//     console.log(`Hello, my name is ${this.firstName} ${this.lastName}`);
-//   },
-// };
+const Person = {
+  firstName: "George",
+  lastName: "Washington",
+  age: 28,
+};
 
-// Person.sayHello();
+(Person.sayHello = function () {
+  console.log(`Hello, my name is ${this.firstName} ${this.lastName}`);
+}),
+  Person.sayHello();
 
 //Task 3
 //In this task we have to delete age property from previous task object "Person"
