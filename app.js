@@ -425,11 +425,29 @@
 
 // let arr = [1, 3, 5, 7, 9];
 
+//First way to solve the problem
+
 // let sortedFirst = arr.shift();
 // console.log(arr); //To remove first element
 
 // let sortedLast = arr.pop();
 // console.log(arr); //To remove last element;
+
+//Second way to solve the problem
+
+// function removeElement(arr, element) {
+//   const index = arr.indexOf(element);
+//   if (index !== -1) {
+//     arr.splice(index, 1);
+//   } else {
+//     console.log("Element is not found in an array!");
+//   }
+// }
+
+// const arr = [1, 2, 3, 4];
+// const element = 4;
+
+// console.log(removeElement(arr, element));
 
 //Task 8
 
