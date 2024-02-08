@@ -562,10 +562,12 @@
 //   Mark: "Toyota",
 //   Model: "Camry",
 //   Year: 2020,
-//   Start: "The car is starting!",
+//   Start: function () {
+//     console.log("The car is starting!");
+//   },
 // };
 
-// console.log(car.Start);
+// car.Start();
 
 //Task 17
 //In this task we have to create another object named "Person", with the name, age and city properties;
@@ -649,3 +651,6 @@
 // };
 
 // Person.length();
+
+//Task 6
+//In this task we have
