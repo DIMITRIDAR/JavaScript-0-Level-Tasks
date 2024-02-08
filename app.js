@@ -616,11 +616,21 @@
 //   firstName: "George",
 //   lastName: "Washington",
 //   age: 28,
-//   sayHello: function () {
-//     console.log(`Hello, my name is ${this.firstName} ${this.lastName}`);
-//   },
 // };
 
 // delete Person.age;
+
+// console.log(Person);
+
+//Task 4
+//In this task we have to add the property "job" to the previous task object "Person".
+
+// const Person = {
+//   firstName: "George",
+//   lastName: "Washington",
+//   age: 28,
+// };
+
+// Person.job = "Acrobat";
 
 // console.log(Person);
