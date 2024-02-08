@@ -579,7 +579,9 @@
 //In this task we have to add a new property "Job" to the object "person" and assign it a value.
 //Print the updated object.
 
-// const person = { Name: "Bob", Age: 28, City: "Tbilisi", Job: "Developer" };
+// const person = { Name: "Bob", Age: 28, City: "Tbilisi" };
+
+// person.job = "Developer";
 
 // console.log(person);
 
