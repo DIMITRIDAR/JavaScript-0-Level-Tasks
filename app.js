@@ -684,3 +684,27 @@
 
 //Task 7
 //In this task we have to check if "Person" object has a "gender" property; If doesn't, create appropriate method.
+
+// const Person = {
+//   firstName: "George",
+//   lastName: "Washington",
+//   age: 28,
+//   job: "Acrobat",
+//   length: function () {
+//     console.log(`The length of the "job" property is ${this.job.length}`);
+//   },
+//   sayHello: function () {
+//     console.log(`My name is ${this.firstName} ${this.lastName}`);
+//   },
+// };
+
+// if (!Person.hasOwnProperty("gender")) {
+//   Person.gender = function (gender) {
+//     this.gender = "Male";
+//     console.log(`Given gender is ${this.gender}`);
+//   };
+// } else {
+//   return "Property `gender` is already here!";
+// }
+
+// Person.gender();
