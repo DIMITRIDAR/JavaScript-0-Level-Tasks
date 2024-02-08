@@ -634,3 +634,18 @@
 // Person.job = "Acrobat";
 
 // console.log(Person);
+
+//Task 5
+//In this task we have to add the function to the object "Person", that will return the length of the property "job".
+
+// const Person = {
+//   firstName: "George",
+//   lastName: "Washington",
+//   age: 28,
+//   job: "Acrobat",
+//   length: function () {
+//     console.log(`The length of the "job" property is ${this.job.length}`);
+//   },
+// };
+
+// Person.length();
