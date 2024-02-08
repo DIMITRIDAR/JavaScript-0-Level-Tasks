@@ -608,3 +608,19 @@
 // };
 
 // Person.sayHello();
+
+//Task 3
+//In this task we have to delete age property from previous task object "Person"
+
+// const Person = {
+//   firstName: "George",
+//   lastName: "Washington",
+//   age: 28,
+//   sayHello: function () {
+//     console.log(`Hello, my name is ${this.firstName} ${this.lastName}`);
+//   },
+// };
+
+// delete Person.age;
+
+// console.log(Person);
