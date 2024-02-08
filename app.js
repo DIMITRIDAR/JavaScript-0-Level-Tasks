@@ -440,12 +440,13 @@
 //   if (index !== -1) {
 //     arr.splice(index, 1);
 //   } else {
-//     console.log("Element is not found in an array!");
+//     return "Element is not found in an array!";
 //   }
+//   return arr;
 // }
 
 // const arr = [1, 2, 3, 4];
-// const element = 4;
+// const element = 5;
 
 // console.log(removeElement(arr, element));
 
@@ -562,12 +563,13 @@
 //   Mark: "Toyota",
 //   Model: "Camry",
 //   Year: 2020,
-//   Start: function () {
-//     console.log("The car is starting!");
-//   },
 // };
 
-// car.Start();
+// car.start = function () {
+//   console.log("The car is starting!");
+// };
+
+// car.start();
 
 //Task 17
 //In this task we have to create another object named "Person", with the name, age and city properties;
@@ -679,3 +681,6 @@
 // }
 
 // console.log(countMethods(Person));
+
+//Task 7
+//In this task we have to check if "Person" object has a "gender" property; If doesn't, create appropriate method.
