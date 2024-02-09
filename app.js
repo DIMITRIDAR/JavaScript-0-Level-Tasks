@@ -751,9 +751,7 @@
 
 // for (property in Person) {
 //   let value = Person[property];
-//   if (typeof value !== "function") {
-//     console.log(value);
-//   }
+//   console.log(value);
 // }
 
 //.........................................................................................................................
