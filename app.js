@@ -712,25 +712,23 @@
 //Task 8
 //In this task we have to loop through the object(from previous task) and print all properties.
 
-// const Person = {
-//   firstName: "George",
-//   lastName: "Washington",
-//   age: 28,
-//   job: "Acrobat",
-//   length: function () {
-//     console.log(`The length of the "job" property is ${this.job.length}`);
-//   },
-//   sayHello: function () {
-//     console.log(`My name is ${this.firstName} ${this.lastName}`);
-//   },
-//   gender: "Male",
-// };
+const Person = {
+  firstName: "George",
+  lastName: "Washington",
+  age: 28,
+  job: "Acrobat",
+  length: function () {
+    console.log(`The length of the "job" property is ${this.job.length}`);
+  },
+  sayHello: function () {
+    console.log(`My name is ${this.firstName} ${this.lastName}`);
+  },
+  gender: "Male",
+};
 
-// for (property in Person) {
-//   if (typeof Person[property] !== "function") {
-//     console.log(property);
-//   }
-// }
+for (property in Person) {
+  console.log(property);
+}
 
 //Task 9
 //In this task we have to loop through the object(from previous task) and print all values.
