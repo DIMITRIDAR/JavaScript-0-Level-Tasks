@@ -765,3 +765,21 @@
 // }
 
 // console.log(generateRandomNumber(2, 9));
+
+//Task 2
+//In this task we have to write a function called capitalizeWords() that takes a sentence(string)as an argument and returns
+//a new sentence where the  first letter of each word is capitalized.
+
+// function capitalizeWords(string) {
+//   let splitted = string.split(" ");
+//   let capitalized = splitted.map((splitted) => {
+//     if (splitted.length > 0) {
+//       return splitted[0].toUpperCase() + splitted.slice(1).toLowerCase();
+//     } else {
+//       return splitted;
+//     }
+//   });
+//   return capitalized.join(" ");
+// }
+
+// console.log(capitalizeWords("alexander bRuno was a talented actor"));
