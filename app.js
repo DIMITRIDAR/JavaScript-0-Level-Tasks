@@ -696,6 +696,7 @@
 //   sayHello: function () {
 //     console.log(`My name is ${this.firstName} ${this.lastName}`);
 //   },
+//   gender: "Male",
 // };
 
 // if (!Person.hasOwnProperty("gender")) {
@@ -703,11 +704,10 @@
 //     this.gender = "Male";
 //     console.log(`Given gender is ${this.gender}`);
 //   };
+//   Person.gender();
 // } else {
-//   return "Property `gender` is already here!";
+//   console.log("Property `gender` is already here!");
 // }
-
-// Person.gender();
 
 //Task 8
 //In this task we have to loop through the object(from previous task) and print all properties.
@@ -728,7 +728,7 @@
 
 // for (property in Person) {
 //   if (typeof Person[property] !== "function") {
-//     console.log(`${property}:`, Person[property]);
+//     console.log(property);
 //   }
 // }
 
@@ -755,3 +755,7 @@
 //     console.log(value);
 //   }
 // }
+
+//.........................................................................................................................
+//Chapter 6
+//Task 1
