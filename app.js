@@ -853,8 +853,8 @@
 //     if (!newString.includes(letter)) {
 //       return false;
 //     }
-//     return true;
 //   }
+//   return true;
 // }
 
 // console.log(isPangram("The quick brown fox jumps over a lazy  dog"));
