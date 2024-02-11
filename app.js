@@ -783,3 +783,30 @@
 // }
 
 // console.log(capitalizeWords("alexander bRuno was a talented actor"));
+
+//Task 3
+//In this task we have to write a function that takes an array of objects and a property name and returns an array
+//of unique values for that property from all objects.
+
+function uniqueValues(objects, key) {
+  const newSet = new Set();
+  objects.forEach((objects) => {
+    if (objects.hasOwnProperty(key)) {
+      newSet.add(objects[key]);
+    }
+  });
+  return Array.from(newSet);
+}
+
+const information = [
+  { Name: "Bob", SurName: "Washington", Age: 28, Citizenship: "Georgian" },
+  {
+    Name: "Bob",
+    SurName: "Monroe",
+    Age: 29,
+    Citizenship: "American",
+  },
+  { Name: "Alison", SurName: "Smith", Age: 30, Citizenship: "French" },
+];
+
+console.log(uniqueValues(information, "Citizenship"));
