@@ -858,3 +858,7 @@
 // }
 
 // console.log(isPangram("The quick brown fox jumps over a lazy  dog"));
+
+//Task 5
+//In this task we have to write a function that takes a sentence as an input and returns an array of unique words in
+//alphabetical order, excluding common English words, such as "the", "a" and "is".
