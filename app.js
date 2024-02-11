@@ -788,25 +788,73 @@
 //In this task we have to write a function that takes an array of objects and a property name and returns an array
 //of unique values for that property from all objects.
 
-function uniqueValues(objects, key) {
-  const newSet = new Set();
-  objects.forEach((objects) => {
-    if (objects.hasOwnProperty(key)) {
-      newSet.add(objects[key]);
-    }
-  });
-  return Array.from(newSet);
-}
+// function uniqueValues(objects, key) {
+//   const newSet = new Set();
+//   objects.forEach((objects) => {
+//     if (objects.hasOwnProperty(key)) {
+//       newSet.add(objects[key]);
+//     }
+//   });
+//   return Array.from(newSet);
+// }
 
-const information = [
-  { Name: "Bob", SurName: "Washington", Age: 28, Citizenship: "Georgian" },
-  {
-    Name: "Bob",
-    SurName: "Monroe",
-    Age: 29,
-    Citizenship: "American",
-  },
-  { Name: "Alison", SurName: "Smith", Age: 30, Citizenship: "French" },
-];
+// const information = [
+//   { Name: "Bob", SurName: "Washington", Age: 28, Citizenship: "Georgian" },
+//   {
+//     Name: "Bob",
+//     SurName: "Monroe",
+//     Age: 29,
+//     Citizenship: "American",
+//   },
+//   { Name: "Alison", SurName: "Smith", Age: 30, Citizenship: "French" },
+// ];
 
-console.log(uniqueValues(information, "Citizenship"));
+// console.log(uniqueValues(information, "Citizenship"));
+
+//Task 4
+//In this task we have to write a function that takes a string as an input and returns true if it is a pangram
+//(contains every letter of the alphabet at least once), false otherwise.
+
+// function isPangram(string) {
+//   const alphabet = [
+//     "a",
+//     "b",
+//     "c",
+//     "d",
+//     "e",
+//     "f",
+//     "g",
+//     "h",
+//     "i",
+//     "j",
+//     "k",
+//     "l",
+//     "m",
+//     "n",
+//     "o",
+//     "p",
+//     "q",
+//     "r",
+//     "s",
+//     "t",
+//     "u",
+//     "v",
+//     "w",
+//     "x",
+//     "y",
+//     "z",
+//   ];
+
+//   const newString = string
+//     .toLowerCase()
+//     .replace(/[!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~]/g, "");
+
+//   for (letter of alphabet) {
+//     if (!newString.includes(letter)) {
+//       return false;
+//     }
+//     return true;
+//   }
+// }
+
+// console.log(isPangram("The quick brown fox jumps over a lazy  dog"));
