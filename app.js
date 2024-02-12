@@ -873,3 +873,20 @@
 // }
 
 // console.log(uniqueArr("the lion is a very strong animal"));
+
+//Task 6
+//In this task we have to write a program to remove all falsy value from an array.
+
+// function removeFalsyValues(arr) {
+//   const sortedArr = [];
+//   for (i = 0; i < arr.length; i++) {
+//     if (arr[i]) {
+//       sortedArr.push(arr[i]);
+//     }
+//   }
+//   return sortedArr;
+// }
+
+// console.log(
+//   removeFalsyValues([1, null, "hello", true, undefined, NaN, 2, 4, 6, "Dog"])
+// );
