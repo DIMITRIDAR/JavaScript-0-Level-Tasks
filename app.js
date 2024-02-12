@@ -862,3 +862,14 @@
 //Task 5
 //In this task we have to write a function that takes a sentence as an input and returns an array of unique words in
 //alphabetical order, excluding common English words, such as "the", "a" and "is".
+
+// function uniqueArr(string) {
+//   const newSet = new Set(
+//     string.replace(/\b(?:the|a|is)\b|[^\w\s]/g, "").split(" ")
+//   );
+//   newSet.delete("");
+//   const uniqueWords = [...newSet].sort().join(" ");
+//   return uniqueWords;
+// }
+
+// console.log(uniqueArr("the lion is a very strong animal"));
