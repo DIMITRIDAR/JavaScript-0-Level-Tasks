@@ -942,3 +942,9 @@
 // }
 
 // console.log(sumAll([1, 2, 3, 4]));
+
+//........................................................................................................................
+//Chapter 8
+//Task 1
+//CallBack Basics: In this task we have to write a function, that takes a callback as an argument and calls it after a delay
+//of 1 second.
