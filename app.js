@@ -911,3 +911,6 @@
 // }
 
 // console.log(isPalindrome("Mr. Owl ate my metal worm"));
+
+//Task9
+//In this task we have to write a program that finds the largest number in an array(do not use sort method).
