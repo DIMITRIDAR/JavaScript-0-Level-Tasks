@@ -890,3 +890,13 @@
 // console.log(
 //   removeFalsyValues([1, null, "hello", true, undefined, NaN, 2, 4, 6, "Dog"])
 // );
+
+//Task 7
+//In this task we have to write a program to reverse the order of words in a sentence.
+
+// function reverseOrder(string) {
+//   let newString = string.split("").reverse().join("");
+//   return newString;
+// }
+
+// console.log(reverseOrder("The cat is a funny animal"));
