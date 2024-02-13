@@ -914,3 +914,18 @@
 
 //Task9
 //In this task we have to write a program that finds the largest number in an array(do not use sort method).
+
+// function largestNumber(arr) {
+//   if (arr.length === 0) {
+//     return;
+//   }
+//   let largest = arr[0];
+//   for (i = 1; i < arr.length; i++) {
+//     if (arr[i] > largest) {
+//       largest = arr[i];
+//     }
+//   }
+//   return largest;
+// }
+
+// console.log(largestNumber([2, 7, 3, 80, 9, 2, 16, 0]));
