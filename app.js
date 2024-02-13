@@ -900,3 +900,14 @@
 // }
 
 // console.log(reverseOrder("The cat is a funny animal"));
+
+//Task 8
+//In this task we have to write a program to check whether a string is a palindrome.
+
+// function isPalindrome(string) {
+//   let newString = string.toLowerCase().replace(/[ .]/g, "");
+
+//   return newString === newString.split("").reverse().join("");
+// }
+
+// console.log(isPalindrome("Mr. Owl ate my metal worm"));
