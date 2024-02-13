@@ -929,3 +929,16 @@
 // }
 
 // console.log(largestNumber([2, 7, 3, 80, 9, 2, 16, 0]));
+
+//Task 10;
+//In this task we have to write a program that sums all the numbers in the array(do not use reduce() method).
+
+// function sumAll(arr) {
+//   let sum = 0;
+//   for (i = 0; i < arr.length; i++) {
+//     sum += arr[i];
+//   }
+//   return sum;
+// }
+
+// console.log(sumAll([1, 2, 3, 4]));
